@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "Animations and smooth page transitions"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes"
+  "lucide-react": "Beautiful vector icons for UI"
+  "date-fns": "Date formatting for data tables"
+  "react-hook-form": "Robust form state management"
+  "@hookform/resolvers": "Zod resolver for react-hook-form validation"
+  "zod": "Schema validation for forms"
+  "sonner": "Elegant toast notifications"
+
+images: []
+
+notes:
+  - "Using a custom fetch interceptor to automatically inject the Bearer token into all /api/ requests."
+  - "Assuming Create Teacher endpoint is accessible without authentication per instructions."
+  - "Utilizing Orval generated hooks from @workspace/api-client-react."
